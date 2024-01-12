@@ -28,14 +28,14 @@ function App() {
       .catch((err) => console.log(err))
   }
 
-  console.log(currentWeather);
-  console.log(forcast);
+  // console.log(currentWeather);
+  // console.log(forcast);
 
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forcast && <Forcast data={forcast}/>}
+      {forcast && <Forcast data={forcast} />}
     </div>
   );
 }

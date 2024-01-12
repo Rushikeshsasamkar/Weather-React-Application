@@ -12,7 +12,7 @@ const Forcast = ({ data }) => {
     const dayInAWeek = new Date().getDay();
     const forCastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek));
 
-    console.log(forCastDays);
+    // console.log(forCastDays);
 
     return (
         <>
@@ -57,6 +57,17 @@ const Forcast = ({ data }) => {
                                 <div className='daily-details-grid-item'>
                                     <label>Feels like:</label>
                                     <label>{Math.round(item.main.feels_like)} °C  </label>
+                                </div>
+
+                                <div className='daily-details-grid-item'>
+                                    <label>Date:</label>
+                                    <label>
+                                        {new Date(item.dt * 1000).toLocaleDateString('en-US', {
+                                            year: 'numeric',
+                                            month: '2-digit',
+                                            day: '2-digit'
+                                        })}
+                                    </label>
                                 </div>
                             </div>
                         </AccordionItemPanel>

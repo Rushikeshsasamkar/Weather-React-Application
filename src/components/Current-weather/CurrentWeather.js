@@ -1,5 +1,6 @@
 import React from "react";
 import "./CurrentWeather.css";
+import ToggleTemp from "../ToggleTemp/ToggleTemp";
 
 const CurrentWeather = ({ data }) => {
     return (
@@ -16,7 +17,7 @@ const CurrentWeather = ({ data }) => {
                 />
             </div>
             <div className="bottom">
-                <p className="temperature">{Math.round(data.main.temp)}°C</p>
+                <p className="temperature">{<ToggleTemp temp={data.main.temp} />}</p>
                 <div className="details">
                     <div className="parameter-row">
                         <span className="parameter-label">Details</span>
@@ -24,6 +25,7 @@ const CurrentWeather = ({ data }) => {
                     <div className="parameter-row">
                         <span className="parameter-label">Feels like</span>
                         <span className="parameter-value">
+                            
                             {Math.round(data.main.feels_like)}°C
                         </span>
                     </div>

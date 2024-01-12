@@ -1,0 +1,12 @@
+.temperature {
+    font-weight: 600;
+    font-size: 40px;   
+    margin:auto;
+    margin-bottom: 3%;
+}
+
+.small {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: -10%;
+}
