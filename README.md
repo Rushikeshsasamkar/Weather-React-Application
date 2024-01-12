@@ -23,7 +23,7 @@ Copy code
 npm start
 The app should now be running at http://localhost:3000.
 
-Build for Production
+## Build for Production
 To build the project for production, run:
 
 bash
@@ -32,7 +32,7 @@ npm run build
 Save to grepper
 This will create a build folder with the optimized and minified production-ready build.
 
-Contributing
+## Contributing
 If you would like to contribute to the project, please follow these guidelines.
 
 Fork the repository.
@@ -42,10 +42,3 @@ Push to your branch: git push origin feature/new-feature.
 Submit a pull request.
 License
 This project is licensed under the MIT License.
-
-sql
-Copy code
-
-Replace "Your Project Name," "your-username," and "your-project" with your actual project details.
-
-Make sure to include any specific instructions that are relevant to your p
