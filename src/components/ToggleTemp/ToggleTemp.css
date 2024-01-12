@@ -1,7 +1,7 @@
 .temperature {
     font-weight: 600;
-    font-size: 40px;   
-    margin:auto;
+    font-size: 40px;
+    margin: auto;
     margin-bottom: 3%;
 }
 
@@ -9,4 +9,17 @@
     font-weight: 300;
     font-size: 14px;
     margin-bottom: -10%;
+}
+
+button {
+    background-color: rgb(53, 132, 188);
+    color: white;
+    padding: auto;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(24, 125, 197);
 }
