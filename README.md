@@ -7,21 +7,18 @@
 
 ## Navigate to the project directory:
 
- bash
- Copy code
- cd your-project
- Install dependencies:
+#### bash
+#### Copy code
+#### cd your-project
+#### Install dependencies:
 
- bash
- Copy code
- npm install
- Running the Application
- Start the development server:
+#### bash
+#### Copy code
+#### npm install
+#### Running the Application
+#### Start the development server:
 
-bash
-Copy code
-npm start
-The app should now be running at http://localhost:3000.
+
 
 ## Build for Production
 To build the project for production, run:
