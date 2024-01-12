@@ -3,7 +3,7 @@
     border-radius: 6px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: white;
-    background-color: black;
+    background-color: rgb(79, 73, 73);
     margin: 20px auto 0 auto;
     padding: 0px 20px 20px 20px;
 
@@ -26,9 +26,9 @@
 
 .weather-description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1;
-    margin: 0;
+    margin: 5;
 }
 
 .weather-icon {
@@ -52,7 +52,7 @@
 .parameter-row {
     display: flex;
     justify-content: space-between;
-    /* margin-left: 30%; */
+    margin-left: 25%;
 
 }
 
